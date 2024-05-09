@@ -17,7 +17,7 @@ function Routes(){
         initialRouteName="Home"
         screenOptions={{
             tabBarActiveTintColor: "#6F0C16",
-            tabBarShowLabel: false,
+            tabBarShowLabel: false,       
             tabBarStyle: {
                 position: "absolute",
                 backgroundColor: '#fff',
