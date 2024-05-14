@@ -46,6 +46,7 @@ function Routes(){
                         return <Ionicons name="calendar-outline" size={size} color={color} />
                     }
                 }}
+                
             />
             <Tab.Screen 
                 name="Profile" component={Profile}
@@ -73,6 +74,7 @@ function Routes(){
                     }
                 }}
             />
+            
             <Tab.Screen 
                 name="Ex Alunos" component={ExStudents}
                 options={{
