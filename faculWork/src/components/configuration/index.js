@@ -40,12 +40,40 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: '#FBEFC8',
-      alignItems: 'center',
-      paddingTop: 20,
-    },
-  
-  });
+  container: {
+    flex: 1,
+    backgroundColor: '#FBEFC8',
+    alignItems: 'center',
+    paddingTop: 20,
+  },
+  header: {
+    marginBottom: 30,
+  },
+  body: {
+    alignItems: 'center',
+  },
+  imageAndRectangle: {
+    alignItems: 'center',
+  },
+  headerLogo: {
+    width: 500,
+    height: 200,
+  },
+  buttonContainer: {
+    alignItems: 'center',
+  },
+  button: {
+    backgroundColor: '#C48834',
+    width: 200,
+    height: 50,
+    borderRadius: 25,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginVertical: 10,
+  },
+  buttonText: {
+    color: 'white',
+    fontSize: 16,
+  },
+});
   

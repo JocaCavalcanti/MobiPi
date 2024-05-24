@@ -35,11 +35,11 @@ export default function App() {
             <Ionicons name="alert-circle" size={30} color="#6F0C16" />
             <Text style={styles.text}>Alertas</Text>
           </Pressable>
-          <Pressable style={styles.button} onPress={() => redirectToPage('Page4')}>
-            <Ionicons name="qr-code" size={30} color="#6F0C16" />
-            <Text style={styles.text}>Qr-Code</Text>
+          <Pressable style={styles.button} onPress={() => redirectToPage('Chat')}>
+            <Ionicons name="chatbubbles" size={30} color="#6F0C16" />
+            <Text style={styles.text}>Chat</Text>
           </Pressable>
-          <Pressable style={styles.button} onPress={() => redirectToPage('Page4')}>
+          <Pressable style={styles.button} onPress={() => redirectToPage('Configuracão')}>
             <Ionicons name="build" size={30} color="#6F0C16" />
             <Text style={styles.text}>Configuração</Text>
           </Pressable>
