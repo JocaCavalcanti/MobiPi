@@ -7,6 +7,8 @@ import Profile from "../src/components/profile";
 import Events from "../src/components/events"; // Corrigido o caminho do componente Events
 import ExStudents from "../src/components/exStudents";
 import Alerts from "../src/components/alerts";
+import chat from "../src/components/chat";
+import configuration from "../src/components/configuration";
 
 const Tab = createBottomTabNavigator();
 
