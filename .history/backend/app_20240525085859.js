@@ -8,10 +8,11 @@ app.use(cors());
 
 const eventRoutes = require('./routes/eventRoutes');
 const alertRoutes = require('./routes/alertRoutes');
-const perfilRoutes = require('./routes/perfilRoutes'); // Adicionar esta linha
+const perfilRoutes = require('./routes/perfilRoutes');
 
 app.use('/api/events', eventRoutes);
 app.use('/api/alerts', alertRoutes);
-app.use('/api/perfis', perfilRoutes); // Adicionar esta linha
+app.use('/api/perfis', perfilRoutes);
 
 module.exports = app;
+z
