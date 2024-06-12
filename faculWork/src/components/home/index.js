@@ -37,11 +37,6 @@ export default function App() {
             <Ionicons name="calendar" size={30} color="#6F0C16" />
             <Text style={styles.text}>Biblioteca</Text>
           </Pressable>
-
-          <Pressable style={styles.button} onPress={handleQRCodePress}>
-            <Ionicons name="qr-code-outline" size={30} color="#6F0C16" />
-            <Text style={styles.text}>Qr Code</Text>
-          </Pressable>
           <Pressable style={styles.button} onPress={() => redirectToPage('Page4')}>
             <Ionicons name="build" size={30} color="#6F0C16" />
             <Text style={styles.text}>Configuração</Text>

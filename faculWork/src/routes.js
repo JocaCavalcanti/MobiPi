@@ -7,6 +7,7 @@ import Profile from "../src/components/profile";
 import Events from "../src/components/events"; // Corrigido o caminho do componente Events
 import ExStudents from "../src/components/exStudents";
 import Alerts from "../src/components/alerts";
+import Social from "../src/components/social";
 
 const Tab = createBottomTabNavigator();
 
@@ -94,6 +95,19 @@ function Routes() {
               color={color}
             />
           ),
+        }}
+      />
+      <Tab.Screen
+        name="Social"
+        component={Social}
+        options={{
+          tabBarIcon: ({ color, size, focused }) => (
+            <Ionicons
+              name={focused ? "chatbubble" : "chatbubble-outline"}
+              size={size}
+              color={color}
+            />
+          ),          
         }}
       />
     </Tab.Navigator>
